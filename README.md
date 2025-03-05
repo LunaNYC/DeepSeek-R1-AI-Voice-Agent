@@ -39,6 +39,7 @@ DeepSeek R1 is accessed via Ollama. Install Ollama from:
 Before running the script, install the required dependencies:
 
 ```bash
+//pip3 for python 3
 pip install "assemblyai[extras]"
 pip install ollama
 pip install elevenlabs
@@ -61,5 +62,6 @@ ollama pull deepseek-r1:7b
 Once all dependencies are installed and the model is downloaded, simply run:
 
 ```bash
-python AIVoiceAgent.py
+// use python3 if python is not working
+python AIVoiceAgent.py 
 ```
