@@ -48,6 +48,7 @@ pip install elevenlabs
 
 ```bash
 brew install mpv
+pip3 install mpv
 ```
 ### Step 2: Download the DeepSeek R1 Model
 Since this script uses DeepSeek R1 via Ollama, download the model locally by running:
